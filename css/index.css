@@ -1,0 +1,114 @@
+html,body {
+    background-color: rgb(23, 42, 73);
+    color:aliceblue;
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-container .some-class a{
+    display: flex;
+    justify-content: center;
+}
+
+.main-container a img{
+    height: 36.8px;
+}
+.main-container a h1{
+    margin-top: 0;
+    color: aliceblue;
+}
+
+.main-container a h1:hover {
+    color: rgb(155, 155, 155);
+}
+
+.main-container input {
+    border: 1px solid;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.main-container input::placeholder {
+    text-align: center;
+}
+
+.main-container .input1 {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-container .btn {
+    margin-top: 15px;
+    width: 175px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-container .btn .calc-value:hover {
+    background-color: rgb(48, 120, 183);
+}
+
+.main-container .btn .plus:hover {
+    background-color: rgb(40, 95, 56);
+}
+
+.main-container .btn .minus:hover {
+    background-color: rgb(111, 40, 39);
+}
+
+.main-container .btn .plus {
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: green;
+    width: 25px;
+    height: 25px;
+}
+
+.main-container .btn .minus {
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: red;
+    width: 25px;
+    height: 25px;
+}
+
+.main-container .btn .calc-value {
+    border: 1px solid;
+    border-radius: 5px;
+    background-color:dodgerblue;
+    width: 25px;
+    height: 25px;
+}
+
+.result {
+    background-color: bisque;
+    width: 195px;
+    height: 95px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.result h1,
+.result p {
+    margin-top: 0;
+    color: black;
+}
